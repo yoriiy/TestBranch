@@ -13,6 +13,7 @@ public class TextComponentView : EditorWindow
     Text[] texts = new Text[0];
     List<string> objNames = new List<string>(); // テキストを定義しているオブジェクト
 
+    // テキストメッセージビュー更新
     [MenuItem("Tools/Text Component Viewer")]
     static void Open()
     {
