@@ -27,6 +27,7 @@ public class AssetBundleBuild
         BuildAB(BuildTarget.Android);
     }
 
+    // iOSとAndroidのアセット作成
     [MenuItem("AssetBundles/Build for iOS and Android")]
     private static void BuildABiOSAndAndroid()
     {
